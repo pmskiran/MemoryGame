@@ -1,0 +1,26 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Alpha animation -->
+<objectAnimator
+    android:valueFrom="0.2"
+    android:valueTo="1.0"
+    android:propertyName="alpha"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:duration="2000"/>
+
+<!-- Scale animation. -->
+<objectAnimator
+    android:valueFrom="0.2"
+    android:valueTo="1.0"
+    android:propertyName="scaleX"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:duration="2000" />
+
+<objectAnimator
+    android:valueFrom="0.2"
+    android:valueTo="1.0"
+    android:propertyName="scaleY"
+    android:interpolator="@android:interpolator/accelerate_decelerate"
+    android:duration="2000" />
+
+</set>
